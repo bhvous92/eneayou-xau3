@@ -1,0 +1,311 @@
+main {
+    height: 690vh;
+}
+
+
+div.um {
+    background-image: url("images/browngrad.png");
+    height: 50vh;
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: row;
+}
+
+div.um h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 11em;
+    color: #4F709C;
+    position: absolute;
+    top: 20vh;
+    left: 8vw
+}
+
+div.um h1 span {
+    color: #233F64;
+}
+
+div.um p.nomezinho {
+    color: #853e17;
+    position: absolute;
+    left: 35vw;
+    top: 25vh;
+    font-family: 'Fanwood Text', sans-serif;
+    font-size: 1.7em
+}
+
+div.um p.descricaozinha {
+    color: #55260d;
+    position: absolute;
+    right: 5vw;
+    top: 40vh;
+    left: 60vw;
+    font-size: 1.5em;
+    font-family: 'Fanwood Text', italic;
+}
+
+div.um div {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 78vh;
+    left: 3vw;
+}
+
+div.um div a {
+    padding-right: 2vw;
+    font-family: 'Fanwood Text', italic;
+    color: #1e2d3f;
+    font-size: 1.8em;
+    transition: 2s
+}
+
+
+div.dois {
+    margin-top: 40vh;
+    display: flex;
+    flex-direction: column
+}
+
+div.dois span {
+    color: #2d0f06;
+    ;
+}
+
+div.dois h2 {
+    font-family: 'Fanwood Text', italic;
+    font-size: 2em;
+    color: #5b2c12;
+    padding-right: 20vw;
+    padding-left: 20vw;
+    text-align: center;
+}
+
+div.tres {
+    margin-top: 50vh;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+
+div.tres h1 {
+    font-size: 3em;
+    margin-bottom: 7vh;
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #233F64;
+}
+
+div.tres1 {
+    display: flex;
+    flex-direction: row;
+}
+
+div.tres1 h3 {
+    color: #5b2c12;
+    padding-bottom: 3vh;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2em
+}
+
+div.tres1 p {
+    font-family: 'Fanwood Text', sans-serif;
+    font-size: 1.5em;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    text-align: justify;
+}
+
+div.tres11,
+.tres12 {
+    display: flex;
+    flex-direction: column;
+    width: 50%
+}
+
+div.four {
+    margin-top: 40vh
+}
+
+div.four12 {
+    display: flex;
+    flex-direction: column;
+}
+
+div.four h1 {
+    color: #233F64;
+    text-align: center;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 3em
+}
+
+div.four1,
+.four2 {
+    display: flex;
+    flex-direction: row;
+}
+
+div.four1 img,
+.four2 img {
+    width: 30vw;
+}
+
+div.four1 p,
+.four2 p {
+    font-family: 'Fanwood Text', sans-serif;
+    font-size: 1.5em;
+    padding-top: 10vh;
+    width: 40vw
+}
+
+div.four1 {
+    text-align: right;
+}
+
+div.five {
+    margin-top: 30vh
+}
+
+div.five h1 {
+    color: #233F64;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+div.five1 {
+    display: flex;
+    flex-direction: row;
+}
+
+div.five img {
+    width: 40vw
+}
+
+div.five1 p {
+    font-family: 'Fanwood Text', sans-serif;
+    font-size: 1.5em;
+    padding-left: 10vw;
+    padding-top: 15vh;
+    padding-right: 10vw
+}
+
+div.six {
+    margin-top: 5vh;
+    height: 15vh;
+    border-top: 2px #1c130b solid;
+    border-bottom: 2px #1c130b solid;
+    transition: 1s;
+}
+
+div.six:hover {
+    background-color:#1c130b80;
+}
+
+div.six a {
+    color: #5b2c12;
+    font-size: 1.7em;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    position: absolute;
+    right: 15vw;
+    padding-top: 3vh
+}
+
+@media only screen and (max-width: 600px){
+    header.dt, p.nomezinho,img, div.um div{
+        display: none
+    }
+
+    div.um p.descricaozinha {
+        position: absolute;
+        left: 5vw;
+        top: 50vh;
+    }
+
+    div.tres{
+        width:95%
+    }
+    div.tres h1, div.four h1, div.five h1 {
+        font-size: 2em;
+        text-align: center
+    }
+
+    div.tres h3{
+        font-size:1.5em
+    }
+
+    div.tres p{
+        font-size: 1.3em
+    }
+
+    div.four p{
+        width: 90%
+    }
+
+    div.five h1{
+        margin-bottom: 2vh
+    }
+
+    div.five p{
+        padding-top:2vh
+    }
+
+    div.six a{
+        right: 30px;
+    }
+}
+
+.appear {
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+
+.appear.inview2 {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.appear.inview2:nth-child(1) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.appear.inview2:nth-child(2) {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.appear.inview2:nth-child(3) {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+.appear.inview2:nth-child(4) {
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+
+.appear.inview2:nth-child(5) {
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+
+
+.appear.inview2:nth-child(6) {
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+}
+
+.appear.inview2:nth-child(7) {
+    -webkit-transition-delay: 0.7s;
+    transition-delay: 0.7s;
+}
+
+.appear.inview2:nth-child(8) {
+    -webkit-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+}

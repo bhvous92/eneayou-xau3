@@ -1,0 +1,28 @@
+
+    div.um{
+        background-image: url("images/redgrad.png")
+    }
+
+    div.um p.nomezinho {
+        color: #760000
+    }
+
+    div.um p.descricaozinha {
+        color: #3b0000
+    }
+
+    div.dois h2 {
+        color: #760000
+    }
+
+    div.tres1 h3 {
+        color: #760000
+    }
+
+    div.six a {
+        color: #3b0000
+    }
+
+    div.six:hover {
+    background-color:#3b00004a;
+}

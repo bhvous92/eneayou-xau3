@@ -1,0 +1,28 @@
+
+    div.um{
+        background-image: url("images/orangegrad.png")
+    }
+
+    div.um p.nomezinho {
+        color: #c03900
+    }
+
+    div.um p.descricaozinha {
+        color: #6a2000
+    }
+
+    div.dois h2 {
+        color: #c03900
+    }
+
+    div.tres1 h3 {
+        color: #c03900
+    }
+
+    div.six a {
+        color: #6a2000
+    }
+
+    div.six:hover {
+    background-color:#6a20004b;
+}

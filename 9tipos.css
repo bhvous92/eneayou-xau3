@@ -1,0 +1,184 @@
+
+        * {
+            margin: 0 auto;
+        }
+
+        body {
+
+            background-color: #EFECE4;
+        }
+
+        main#dt {
+            padding-top: 30vh;
+            height: 1000vh;
+            margin-top: -30vh
+        }
+
+        main::before {
+            content: "";
+            background-image: url(images/eneagramahp.png);
+            background-size: cover;
+            background-position: center center;
+            position: absolute;
+            width: 40vw;
+            height: 40vw;
+            left: 30vw;
+            top: 10vh;
+            z-index: -1;
+            /*img is behind the content*/
+            opacity: 0.5;
+        }
+
+        .rect1 {
+            align-items: center;
+            padding-top: 35vh;
+            height: 60vh
+        }
+
+        .rect1 h1 {
+            text-align: center;
+            font-family: 'Dela Gothic One', sans-serif;
+            color: #1e2d3f;
+            font-size: 5em;
+        }
+
+        .rect1 h3 {
+            color: #485261;
+            text-align: center;
+            font-family: 'Dela Gothic One', sans-serif;
+            font-size: 2em
+        }
+
+        .rect2,
+        .rect3,
+        .rect4,
+        .rect5,
+        .rect6,
+        .rect7,
+        .rect8,
+        .rect9,
+        .rect10 {
+            align-items: center;
+            height: 100vh;
+            background-color: #233F64;
+        }
+
+        .rect3,
+        .rect5,
+        .rect7,
+        .rect9 {
+            background-color: #3c68a2
+        }
+
+        .rect2 h1,
+        .rect3 h1,
+        .rect4 h1,
+        .rect5 h1,
+        .rect6 h1,
+        .rect7 h1,
+        .rect8 h1,
+        .rect9 h1,
+        .rect10 h1 {
+            font-family: 'Dela Gothic One', sans-serif;
+            text-align: center;
+            color: antiquewhite;
+            font-size: 4em;
+            padding-top: 30vh;
+        }
+
+        .rect2 h3,
+        .rect3 h3,
+        .rect4 h3,
+        .rect5 h3,
+        .rect6 h3,
+        .rect7 h3,
+        .rect8 h3,
+        .rect9 h3,
+        .rect10 h3 {
+            font-family: 'Dela Gothic One', sans-serif;
+            text-align: center;
+            color: antiquewhite;
+            font-size: 1.7em;
+            padding-bottom: 5vh;
+            width: 50vw;
+            border-bottom: solid 1px #ffffff;
+        }
+
+        main a {
+            text-decoration: none;
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            header.dt, main::before, .nav{
+                display:none;
+            }
+
+            .rect2 h3,
+        .rect3 h3,
+        .rect4 h3,
+        .rect5 h3,
+        .rect6 h3,
+        .rect7 h3,
+        .rect8 h3,
+        .rect9 h3,
+        .rect10 h3{
+            font-size: 1.3em;
+        }
+
+        }
+
+        .appear {
+            -webkit-transition: all 0.8s;
+            transition: all 0.8s;
+            opacity: 0;
+            -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+        }
+        
+        .appear.inview2 {
+            opacity: 1;
+            -webkit-transform: none;
+            transform: none;
+        }
+        
+        .appear.inview2:nth-child(1) {
+            -webkit-transition-delay: 0.1s;
+            transition-delay: 0.1s;
+        }
+        
+        .appear.inview2:nth-child(2) {
+            -webkit-transition-delay: 0.2s;
+            transition-delay: 0.2s;
+        }
+        
+        .appear.inview2:nth-child(3) {
+            -webkit-transition-delay: 0.3s;
+            transition-delay: 0.3s;
+        }
+        
+        .appear.inview2:nth-child(4) {
+            -webkit-transition-delay: 0.4s;
+            transition-delay: 0.4s;
+        }
+        
+        .appear.inview2:nth-child(5) {
+            -webkit-transition-delay: 0.5s;
+            transition-delay: 0.5s;
+        }
+        
+        
+        .appear.inview2:nth-child(6) {
+            -webkit-transition-delay: 0.6s;
+            transition-delay: 0.6s;
+        }
+        
+        .appear.inview2:nth-child(7) {
+            -webkit-transition-delay: 0.7s;
+            transition-delay: 0.7s;
+        }
+        
+        .appear.inview2:nth-child(8) {
+            -webkit-transition-delay: 0.8s;
+            transition-delay: 0.8s;
+        }

@@ -1,0 +1,29 @@
+
+
+    div.um{
+        background-image: url("images/purplegrad.png")
+    }
+    
+    div.um p.nomezinho {
+        color: #420062
+    }
+
+    div.um p.descricaozinha {
+        color: #2b0141
+    }
+
+    div.dois h2 {
+        color: #420062
+    }
+
+    div.tres1 h3 {
+        color: #420062
+    }
+
+    div.six a {
+        color: #2b0141
+    }
+
+    div.six:hover {
+    background-color:#2b014143;
+}

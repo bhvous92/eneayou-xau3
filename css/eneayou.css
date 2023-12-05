@@ -1,0 +1,134 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #EFECE4;
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 6vh;
+    background: linear-gradient(0deg, #cbdaef 0%, rgb(125, 159, 206) 100%);
+    font-family: 'Dela Gothic One', sans-serif;
+}
+.as {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.as a:hover {
+    background-color: #3c68a2;
+}
+
+
+div.titulo {
+    width: 30%
+}
+
+div.titulo h1 {
+    font-size: 2em;
+    cursor: pointer;
+    color: #3c68a2;
+    padding-left: 5vw;
+}
+
+div.titulo h1 span {
+    color: #233F64;
+}
+
+div.titulo a{
+    text-decoration: none;
+}
+
+header .as a {
+    transition: 1s;
+    padding: 0.5em;
+    border: 0.5px #26262626 solid;
+    border-radius: 30px;
+    font-size: 1em;
+    cursor: pointer;
+    color: #1e2d3f;
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    background: linear-gradient(0deg, #cbdaef 0%, rgb(125, 159, 206) 100%);
+    text-align: center;
+    padding: 5px 10px;
+    display: none;
+}
+
+nav h1{
+    font-family:'Dela Gothic One', sans-serif;
+    color:#3c68a2;
+    font-size: 2em;
+}
+
+h1 span{
+    color: #233F64;
+}
+
+
+.barrinha{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    color:#233F64;
+    transition: 1s
+}
+
+.barrinha:hover{
+    color:#091019;
+}
+
+div.menu a {
+    display: inline-block;
+    text-decoration: none;
+    font-family:'Dela Gothic One', sans-serif;
+    color: #3c68a2;
+    font-size: 1em;
+    padding: 0px 15px;
+    transition: 10s;
+}
+
+div.menu a:hover{
+    border: solid 1px #000000;
+    border-radius: 10em;
+}
+@media only screen and (max-width: 600px) {
+
+    header, main::before {
+        display: none;
+    }
+
+    * {
+        margin: 0 auto;
+    }
+
+
+    header.mbl,
+    main.mbl {
+        display: block;
+    }
+
+    nav{
+        display: block
+    }
+
+    .barrinha{
+        display: block;
+    }
+    div.menu{
+        display: none;
+
+    }
+    div.menu a{
+        display: block;
+        
+    }
+}

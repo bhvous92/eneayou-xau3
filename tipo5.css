@@ -1,0 +1,28 @@
+
+    div.um{
+        background-image: url("images/lightgreengrad.png")
+    }
+
+    div.um p.nomezinho {
+        color: #568500
+    }
+
+    div.um p.descricaozinha {
+        color: #406300
+    }
+
+    div.dois h2 {
+        color: #568500
+    }
+
+    div.tres1 h3 {
+        color: #568500
+    }
+
+    div.six a {
+        color: #406300
+    }
+
+    div.six:hover {
+    background-color:#4063004a;
+}

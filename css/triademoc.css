@@ -1,0 +1,216 @@
+main {
+    height: 400vh;
+    font-family: 'Fanwood Text', sans-serif;
+}
+
+div.photo {
+    height: 70vh;
+    background-color: #e44b50;
+}
+
+div.photo h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: aliceblue;
+    font-size: 7em;
+    position: absolute;
+    top: 15vh;
+    left: 5vw;
+}
+
+div.photo p {
+    font-family: 'Fanwood Text', sans-serif;
+    color: aliceblue;
+    font-size: 1.7em;
+    position: absolute;
+    top: 35vh;
+    left: 6vw;
+}
+
+div.text1 {
+    margin-top: 20vh;
+    width: 70%
+}
+
+div.text1 p {
+    font-style: italic;
+    font-size: 2em;
+    text-align: center
+}
+
+div.text2 {
+    margin-top: 15vh;
+    width: 80%;
+}
+
+div.text2 p {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+div.text3 {
+    margin-top: 10vh;
+    width: 80%;
+}
+
+div.text3 p {
+    font-size: 1.5em;
+    text-align: right;
+}
+
+div.text4 {
+    margin-top: 35vh;
+    width: 50%;
+}
+
+div.text4 h3 {
+    color: #e44b50;
+    font-size: 2.5em;
+    font-family: 'Dela Gothic One';
+    text-align: center;
+}
+
+div.text4 p {
+    margin-top: 5vh;
+    width: 50%;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+div.text5 {
+    margin-top: 30vh;
+    width: 80%
+}
+
+div.text5 h1 {
+    font-size: 4em;
+    color: #e44b50;
+    font-family: 'Bebas Neue', sans-serif
+}
+
+div.text5 span {
+    font-size: 0.5em;
+    color: #623d23;
+    font-family: 'Fanwood Text', sans-serif;
+}
+
+div.text6 {
+    margin-top: 20vh;
+    width: 80%
+}
+
+div.text6 h1 {
+    font-size: 4em;
+    color: #e44b50;
+    font-family: 'Bebas Neue', sans-serif
+}
+
+div.text6 span {
+    font-size: 0.5em;
+    color: #623d23;
+    font-family: 'Fanwood Text', sans-serif;
+}
+
+div.text7 {
+    margin-top: 20vh;
+    width: 80%
+}
+
+div.text7 h1 {
+    font-size: 4em;
+    color: #e44b50;
+    font-family: 'Bebas Neue', sans-serif
+}
+
+div.text7 span {
+    font-size: 0.5em;
+    color: #623d23;
+    font-family: 'Fanwood Text', sans-serif;
+}
+
+div.text5 p,
+.text6 p,
+.text7 p {
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 600px) {
+    header.dt {
+        display: none;
+    }
+
+    main {
+        height: 550vh;
+    }
+
+    div.photo h1,
+    div.photo p {
+        padding-top: 7vh
+    }
+
+    div.photo p {
+        top: 55vh
+    }
+
+    div.text1 {
+        width: 85%
+    }
+
+    div.text4 {
+        width: 90%
+    }
+}
+
+.appear {
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+
+.appear.inview2 {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.appear.inview2:nth-child(1) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.appear.inview2:nth-child(2) {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.appear.inview2:nth-child(3) {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+.appear.inview2:nth-child(4) {
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+
+.appear.inview2:nth-child(5) {
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+
+
+.appear.inview2:nth-child(6) {
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+}
+
+.appear.inview2:nth-child(7) {
+    -webkit-transition-delay: 0.7s;
+    transition-delay: 0.7s;
+}
+
+.appear.inview2:nth-child(8) {
+    -webkit-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+}

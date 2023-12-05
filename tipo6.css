@@ -1,0 +1,28 @@
+
+    div.um{
+        background-image: url("images/magentagrad.png")
+    }
+
+    div.um p.nomezinho {
+        color: #5c013b
+    }
+
+    div.um p.descricaozinha {
+        color: #3b0026
+    }
+
+    div.dois h2 {
+        color: #5c013b
+    }
+
+    div.tres1 h3 {
+        color: #5c013b
+    }
+
+    div.six a {
+        color: #3b0026
+    }
+
+    div.six:hover {
+    background-color:#3b002643;
+}

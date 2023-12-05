@@ -1,0 +1,273 @@
+main {
+    padding-top: 30vh;
+    height: 770vh;
+    margin-top: -30vh
+}
+
+div.titulo {
+    width: 30%
+}
+
+div.titulo h1 {
+    font-size: 2em;
+    cursor: pointer;
+    color: #3c68a2;
+    padding-left: 5vw;
+}
+
+div.titulo a {
+    text-decoration: none;
+}
+
+div.titulo h1 span {
+    color: #233F64;
+}
+
+main::before {
+    content: "";
+    background-image: url(images/eneagramahp.png);
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    left: -15vw;
+    top: 5vh;
+    z-index: -1;
+}
+
+
+div.hptxt1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30vh
+}
+
+div.zao11 {
+    width: 70%
+}
+
+div.zao12 {
+    width: 30%
+}
+
+div.zao12 h3 {
+    text-align: justify;
+    font-family: 'Fanwood Text', serif;
+    font-style: italic;
+    font-size: 2em;
+    color: #52120f;
+    padding-right: 8vw
+}
+
+
+div.hptxt2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15vh
+}
+
+div.zao21 {
+    width: 35%
+}
+
+div.zao22 {
+    width: 65%
+}
+
+b{
+    color:#280a01;
+    font-size: 1.3em;
+}
+
+div.zao22 p {
+    color: #511300;
+    font-family: 'Fanwood Text', serif;
+    padding-right: 35vw;
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+
+div.hptxt3 {
+    margin-top: 35vh;
+}
+
+div.hptxt3 h3, div.hptxt4 h3, .hptxt5 h3, .hptxt6 h3 {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #52120f
+}
+
+div.hptxt3 p, .hptxt4 p, .hptxt5 p, .hptxt6 p, .hptxt7 h3, .hptxt8 h3 {
+    color: #511300;
+    margin-top: 5vh;
+    font-size: 1.3em;
+    text-align: justify;
+    width:40%;
+}
+
+div.hptxt3 img {
+    width: 30vw;
+    height: 30vw;
+    margin-left: 35vw;
+}
+
+.hptxt4, .hptxt5, .hptxt6, .hptxt7, .hptxt8{
+    margin-top:30vh;
+}
+
+.hptxt52{
+    display: flex;
+    flex-direction: row;
+    width:70%
+}
+.hptxt6{
+   width: 50%;
+   margin-top:40vh
+}
+
+.hptxt52 p{
+    width:30%
+}
+
+.hptxt52 img{
+    width: 30vw;
+}
+
+.hptxt62, .hptxt63{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction:row
+}
+
+.hptxt62 img, .hptxt63 img{
+    width: 25vw
+}
+
+.hptxt7 h3, .hptxt8 h3{
+    font-size: 1.8em;
+    text-align: center;
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+.hptxt7 p, .hptxt8 p{
+    margin-top: 5vh;
+    font-size:1.2em;
+    width: 60%;
+    text-align: center;
+}
+
+div.botao{
+    background-color:#233F64;
+    height: 10vh;
+    margin-top: 15vh;
+    transition: 1s
+}
+
+.botao a{
+    color: white;
+    text-decoration: none;
+    font-size: 3em;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-left: 80vw;
+    text-align: center;
+}
+
+.botao:hover{
+    background-color:#07111f;
+}
+
+
+.appear {
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+
+.appear.inview2 {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.appear.inview2:nth-child(1) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.appear.inview2:nth-child(2) {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.appear.inview2:nth-child(3) {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+.appear.inview2:nth-child(4) {
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+
+.appear.inview2:nth-child(5) {
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+
+
+.appear.inview2:nth-child(6) {
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+}
+
+.appear.inview2:nth-child(7) {
+    -webkit-transition-delay: 0.7s;
+    transition-delay: 0.7s;
+}
+
+.appear.inview2:nth-child(8) {
+    -webkit-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+}
+
+@media only screen and (max-width: 600px){
+    main{
+        width: 100%
+    }
+    .zao11{
+        display: none
+    }
+
+    .zao12 h3{
+        width: 100%;
+        text-align: justified;
+        padding-right:0
+    }
+
+    .zao21{
+        display: none
+    }
+
+    .zao22 p{
+        padding-right: 0
+    }
+
+    img{
+        display: none
+    }
+
+    p{
+        width: 90%;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    *{
+        width: 90%
+    }  
+}

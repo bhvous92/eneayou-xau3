@@ -1,0 +1,199 @@
+main {
+    height: 290vh
+}
+
+main::before {
+    content: "";
+    background-image: url(images/eneagramahp.png);
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    left: 30vw;
+    top: 10vh;
+    z-index: -1;
+    /*img is behind the content*/
+    opacity: 0.5;
+}
+
+div.one {
+    align-items: center;
+    padding-top: 35vh;
+    height: 80vh
+}
+
+div.one h1 {
+    text-align: center;
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #1e2d3f;
+    font-size: 5em;
+}
+
+div.one h3 {
+    color: #485261;
+    text-align: center;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 2em
+}
+
+div.two {
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    transition: 3s;
+    padding-bottom: 15vh
+}
+
+div.two:hover {
+    background-color: #5b2c1267
+}
+
+div.two h2 {
+    text-align: center;
+    font-family: 'Fanwood Text', italic;
+    font-size: 2em;
+    color: #5b2c12;
+    padding-right: 20vw;
+    padding-left: 20vw;
+}
+
+div.two span {
+    color: rgb(30, 14, 5)
+}
+
+div.three {
+    margin-top: 30vh;
+    padding-right: 20vw;
+    padding-left: 20vw;
+}
+
+div.three p {
+    font-family: 'Fanwood Text', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+div.four {
+    display: flex;
+    flex-direction: row
+}
+
+div.four img {
+    width: 20vw
+}
+
+div.rect {
+    margin-top: 5vh;
+    background-color: #0000001b;
+    border-radius: 20px;
+    padding: 1vw;
+    transition: 1s;
+}
+
+#inst:hover {
+    background-color: #340404a8;
+}
+
+#emoc:hover {
+    background-color: #e44b5086;
+}
+
+#ment:hover {
+    background-color: #053700ae;
+}
+
+div.four a {
+    text-decoration: none;
+}
+
+div.four h3 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    color: #1e2d3f;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+
+    main::before,
+    header.dt {
+        display: none
+    }
+
+    div.two h2 {
+        padding-top: 5vh;
+        padding-right: 10vw;
+        padding-left: 10vw;
+    }
+
+    div.four {
+        display: flex;
+        flex-direction: column
+    }
+
+    div.rect {
+        width: 40vw;
+    }
+
+
+    div.rect img {
+        padding-left: 25%
+    }
+}
+
+.appear {
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+
+.appear.inview2 {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.appear.inview2:nth-child(1) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.appear.inview2:nth-child(2) {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.appear.inview2:nth-child(3) {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+.appear.inview2:nth-child(4) {
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+
+.appear.inview2:nth-child(5) {
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+
+
+.appear.inview2:nth-child(6) {
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+}
+
+.appear.inview2:nth-child(7) {
+    -webkit-transition-delay: 0.7s;
+    transition-delay: 0.7s;
+}
+
+.appear.inview2:nth-child(8) {
+    -webkit-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+}

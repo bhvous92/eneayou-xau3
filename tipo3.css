@@ -1,0 +1,30 @@
+
+    div.um{
+        background-image: url("images/yellowgrad.png")
+    }
+
+    div.um p.nomezinho {
+        color: #d59100
+    }
+
+    div.um p.descricaozinha {
+        color: #a77200
+    }
+
+    div.dois h2 {
+        color: #d59100
+    }
+
+    div.tres1 h3 {
+        color: #d59100
+    }
+
+    div.six a {
+        color: #a77200
+    }
+
+    div.six:hover {
+    background-color:#a7720061;
+}
+
+

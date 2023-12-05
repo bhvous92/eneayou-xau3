@@ -1,0 +1,31 @@
+
+
+    div.um{
+        background-image: url("images/lightbluegrad.png")
+    }
+
+    div.um p.nomezinho {
+        color:#98BBCD
+    }
+
+    div.um p.descricaozinha {
+        color:#7092a3
+    }
+
+    div.dois h2 {
+        color:#98BBCD
+    }
+
+    div.tres1 h3{
+        color:#98BBCD
+    }
+    
+    div.six a{
+        color:#7092a3
+    }
+
+    div.six:hover {
+    background-color:#7092a359;
+}
+
+

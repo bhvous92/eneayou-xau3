@@ -1,0 +1,171 @@
+main {
+    height: 30vh;
+}
+
+div.one {
+    color: aliceblue;
+    margin-top: 10vh;
+    height: 70vh;
+    width: 60vw;
+    background-color: #282853;
+    border-radius: 10vw;
+}
+
+div.oneone {
+    padding-top: 20vh;
+}
+
+div.one h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Dela gothic One';
+}
+
+div.onetwo {
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+div.one h2 {
+    font-size: 2.5em;
+    font-family: 'Bebas Neue';
+
+}
+
+div.two {
+    margin-top: 20vh;
+    width: 60%;
+    font-family: 'Fanwood Text', italic;
+}
+
+div.two p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+div.four {
+
+    margin-top: 30vh;
+    height: 20vh;
+    font-family: 'Fanwood Text', sans-serif;
+}
+
+div.four p {
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+div.four1 {
+    border-radius: 3vh;
+    width: 70%;
+    background-color: #d4ccb4;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5vh;
+    padding-bottom: 5vh
+}
+
+div.four12 p {
+    text-align: right;
+}
+
+div.four1 p {
+    font-family: 'Fanwood Text', sans-serif;
+    font-size: 1.5em;
+    padding: 0.5em
+}
+
+div.a {
+    background-color: #c4bba2;
+    border-radius: 3vh;
+}
+
+
+
+div.four11 h1,
+.four12 h1 {
+    padding: 0.5em;
+    text-align: center;
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    div.one {
+        width: 90%
+    }
+
+    div.four1 {
+        width: 90%
+    }
+
+    div.four {
+        margin-top: 15vh
+    }
+
+    div.four11 h1,
+    .four12 h1 {
+        padding: 0.2em;
+    }
+
+    div.four11,
+    div.four12 {
+        width: 50%
+    }
+}
+
+.appear {
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+
+.appear.inview2 {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.appear.inview2:nth-child(1) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.appear.inview2:nth-child(2) {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.appear.inview2:nth-child(3) {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+.appear.inview2:nth-child(4) {
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+
+.appear.inview2:nth-child(5) {
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+
+
+.appear.inview2:nth-child(6) {
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+}
+
+.appear.inview2:nth-child(7) {
+    -webkit-transition-delay: 0.7s;
+    transition-delay: 0.7s;
+}
+
+.appear.inview2:nth-child(8) {
+    -webkit-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+}
